@@ -1,0 +1,176 @@
+/************************** 
+* . General Style
+***************************/
+a:hover,
+a:focus,
+.fa:hover,
+.navbar-header .navbar-brand span,
+.navbar-inverse .navbar-nav li a:hover,
+.navbar-inverse .navbar-nav li a:focus,
+#portfolio .portfolio-list .nav li:hover {
+  color: #15F4EE; }
+
+.form-control:focus,
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+  border-color: #15F4EE; }
+
+.btn:hover,
+.btn:focus {
+  background: #15F4EE; }
+
+.section-title h2:before, .section-title h2:after {
+  content: "";
+  background: #15F4EE; }
+
+.draw:hover:before {
+  border-top-color: #15F4EE;
+  border-right-color: #15F4EE; }
+.draw:hover:after {
+  border-bottom-color: #15F4EE;
+  border-left-color: #15F4EE; }
+
+.cd-overlay-content span {
+  background-color: #15F4EE; }
+
+/************************** 
+* Navbar
+***************************/
+.nav-styletwo .navbar .menu-toggle .bar {
+  background-color: #15F4EE; }
+.nav-styletwo .navbar .navbar-collapse .navbar-nav .nav-item .nav-link.active {
+  color: #15F4EE; }
+
+@media (max-width: 991px) {
+  .nav-styletwo .navbar .navbar-collapse .navbar-nav .nav-item .nav-link.active {
+    color: #15F4EE; } }
+.dl-burger-menu {
+  background: #15F4EE; }
+
+.dl-fixed-sidebar .dl-menu-fixed ul li:hover a {
+  color: #15F4EE !important; }
+.dl-fixed-sidebar .dl-menu-fixed ul li a.active {
+  color: #15F4EE !important; }
+.dl-fixed-sidebar .dl-menu-fixed ul li .active:after {
+  background: #15F4EE; }
+.dl-fixed-sidebar .line:after {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), color-stop(75%, #15F4EE), to(#15F4EE));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0, #15F4EE 75%, #15F4EE); }
+
+/************************** 
+* Sidebar fix 
+***************************/
+.sidebar-contet .contentsidebar .themecolor .list-sidebar li span.active {
+  border: 1px solid #15F4EE !important; }
+
+/************************** 
+* About Us
+***************************/
+#about .about-blok .aboutinfo .about-img:after {
+  background-color: #15F4EE !important; }
+#about .skills-bar-container li .bar-container .progressbar {
+  background-color: #15F4EE; }
+
+/************************** 
+* . Services
+***************************/
+#services .cont-services .servfix:hover .read-more {
+  color: #15F4EE !important; }
+  #services .cont-services .servfix:hover .read-more i {
+    color: #15F4EE !important; }
+
+/************************** 
+* Team
+***************************/
+.team .teamiteam .imgteam .socials-media ul li:hover {
+  background: #15F4EE; }
+
+/************************** 
+* Contact
+***************************/
+#contact {
+  height: auto;
+  width: 100%; }
+  #contact .contact-block1 .contact-block .fa {
+    color: #15F4EE; }
+  #contact .socials-media ul li:hover {
+    background: #15F4EE; }
+
+::-webkit-scrollbar-thumb {
+  background: #15F4EE; }
+
+::-webkit-scrollbar-thumb:hover {
+  background: #15F4EE; }
+
+::-webkit-selection {
+  background: #15F4EE; }
+
+::-moz-selection {
+  background: #15F4EE; }
+
+::selection {
+  background: #15F4EE; }
+
+.counter .fullcounter h3 sup {
+  color: #15F4EE; }
+
+.error {
+  color: #15F4EE; }
+
+.overlay-2 {
+  background: #15F4EE; }
+
+.mainicon.sidebaricon {
+  background: #15F4EE;
+  border: 1px solid #15F4EE; }
+.mainicon.btn-purchase {
+  border: 1px solid rgba(255, 255, 255, 0.1); }
+
+/************************** 
+* Option themes
+***************************/
+.sidebar-contet .contentsidebar .themecolor .list-sidebar li a.active {
+  border: 1px solid #15F4EE; }
+
+/************************** 
+* Footer
+***************************/
+#footer .line:before {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), color-stop(75%, #15F4EE), to(#ff3d4f));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0, #15F4EE 75%, #15F4EE); }
+
+/************************** 
+* Color Error
+***************************/
+.error {
+  color: #15F4EE !important; }
+
+/************************** 
+* Blog Details
+***************************/
+.page-title .overlay .content ul li a {
+  color: #15F4EE; }
+
+/* Blog Details */
+.blog-details .blog-single .post .post-content .post-date {
+  color: #15F4EE; }
+.blog-details .blog-single .post .post-content .post-title a h4:hover {
+  color: #15F4EE; }
+.blog-details .blog-single .post .post-comments .post-comment .reply-btn {
+  color: #15F4EE; }
+
+/* Blog Sidebar */
+.blog-sidebar .sidebar-search .form-group .search-btn {
+  color: #15F4EE; }
+.blog-sidebar .sidebar-categories .categories-list li a span {
+  color: #15F4EE; }
+.blog-sidebar .sidebar-categories .categories-list li a:hover {
+  color: #15F4EE; }
+.blog-sidebar .sidebar-posts .post-inner .post-info h5 a:hover {
+  color: #15F4EE; }
+.blog-sidebar .sidebar-archives .archives-list li a:hover {
+  color: #15F4EE; }
+.blog-sidebar .sidebar-tags .tags-list li a:hover {
+  color: #15F4EE; }
+
+/*# sourceMappingURL=default_color.css.map */
