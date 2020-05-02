@@ -9,7 +9,7 @@ $(function() {
 
     'use strict';
     var typed = new Typed('#typed-slide-1', {
-        strings: ['Designer', 'Freelancer'],
+        strings: ['Developer', 'OS Contributor', 'CTF Player' , 'Technophile'],
         typeSpeed: 60,
         backSpeed: 60,
         loop: true
@@ -170,9 +170,9 @@ $(function() {
 
     function skillsProgress() {
         var lang = {
-            "html": "100%",
-            "css": "90%",
-            "javascript": "70%"
+            "python": "70%",
+            "deep": "70%",
+            "ui": "80%"
         };
 
         var multiply = 2;
@@ -301,32 +301,6 @@ function fadeOut() {
     });
 
 }
-
-
-// ========================================================================= //
-//      [ Option Box & Color Change ]
-// ========================================================================= //
-
-
-$('.sidebaricon').on('click', function() {
-    $('.sidebar-contet').toggleClass('active')
-    $('.sidebaricon').toggleClass('active')
-    $('.btn-purchase').toggleClass('active')
-})
-
-$(".list-color li span").on("click", function() {
-    $("link[href*='color']").attr("href", "assets/css/main/skins/" + $(this).data('color') + "_color.css");
-});
-
-
-$(".list-bg-color li a").on("click", function() {
-    $(this).addClass("active").parent().siblings().find("a").removeClass("active");
-});
-
-
-$(".light .cd-nav-trigger").on("click", function() {
-    $(".navbar-wrapper .navfixed").toggleClass("nav-open");
-});
 
 
 // ========================================================================= //
@@ -521,7 +495,7 @@ document.getElementById("close").onclick = function() {
 //     Example MailChimp url: http://xxx.xxx.list-manage.com/subscribe/post?u=xxx&id=xxx
 $('#subscribe').ajaxChimp({
     language: 'eng',
-    url: 'https://uxign.us18.list-manage.com/subscribe/post?u=88b2522a6203591b597a7e4e6&amp;id=1291144d60'
+    url: 'https://www.google.com/subscribe/post?u=88b2522a6203591b597a7e4e6&amp;id=1291144d60'
 });
 
 // Mailchimp translation

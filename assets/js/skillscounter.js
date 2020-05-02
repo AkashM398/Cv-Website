@@ -4,9 +4,9 @@
 
 function skillsProgress() {
     var lang = {
-        "html": "100%",
-        "css": "90%",
-        "javascript": "70%"
+        "python": "70%",
+        "deep": "60%",
+        "ui": "80%"
     };
 
     var multiply = 2;

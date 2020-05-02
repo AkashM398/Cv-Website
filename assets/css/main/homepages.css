@@ -2559,21 +2559,21 @@ span#typed-slide-1 {
           animation-timing-function: ease-out;
           -webkit-animation-fill-mode: both;
           animation-fill-mode: both; }
-        #about .skills-bar-container li .bar-container #progress-html {
-          -webkit-animation-name: progress-html;
-          animation-name: progress-html;
+        #about .skills-bar-container li .bar-container #progress-python {
+          -webkit-animation-name: progress-python;
+          animation-name: progress-python;
           -webkit-animation-delay: 0.7s;
           animation-delay: 0.7s;
           margin: 0; }
-        #about .skills-bar-container li .bar-container #progress-css {
-          -webkit-animation-name: progress-css;
-          animation-name: progress-css;
+        #about .skills-bar-container li .bar-container #progress-deep {
+          -webkit-animation-name: progress-deep;
+          animation-name: progress-deep;
           -webkit-animation-delay: 1.4s;
           animation-delay: 1.4s;
           margin: 0; }
-        #about .skills-bar-container li .bar-container #progress-javascript {
-          -webkit-animation-name: progress-javascript;
-          animation-name: progress-javascript;
+        #about .skills-bar-container li .bar-container #progress-ui {
+          -webkit-animation-name: progress-ui;
+          animation-name: progress-ui;
           -webkit-animation-delay: 2.1s;
           animation-delay: 2.1s;
           margin: 0; }
@@ -2850,66 +2850,9 @@ span#typed-slide-1 {
     margin-bottom: 20px;
     font-size: 17px; }
 
-/************************** 
-* Team
-***************************/
-.team {
-  position: relative; }
-  .team .teamiteam {
-    cursor: pointer;
-    box-shadow: 0px 9px 31px 6px rgba(0, 0, 0, 0.2) !important; }
-    .team .teamiteam:hover .imgteam img {
-      -webkit-filter: blur(3px);
-      filter: blur(3px); }
-    .team .teamiteam:hover .socials-media {
-      margin-bottom: 24px !important; }
-    .team .teamiteam .imgteam {
-      height: 435px;
-      position: relative;
-      overflow: hidden; }
-      .team .teamiteam .imgteam:after {
-        content: '';
-        opacity: 0.4;
-        transition: opacity 300ms;
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        left: 0;
-        right: 0; }
-      .team .teamiteam .imgteam img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover; }
-      .team .teamiteam .imgteam .socials-media {
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        margin-bottom: -40px;
-        z-index: 9; }
-        .team .teamiteam .imgteam .socials-media ul {
-          display: flex;
-          justify-content: center; }
-          .team .teamiteam .imgteam .socials-media ul li {
-            float: left;
-            height: 40px;
-            width: 40px;
-            line-height: 40px;
-            margin-left: 5px;
-            margin-right: 5px;
-            border-radius: 4px; }
-    .team .teamiteam .btmteam {
-      padding: 20px; }
-      .team .teamiteam .btmteam .maintitle {
-        margin-bottom: 0; }
-      .team .teamiteam .btmteam .separator {
-        text-transform: capitalize;
-        font-weight: 500;
-        font-size: 15px;
-        display: inline-block;
-        font-family: "Saira"; }
 
 /************************** 
-* journal
+* blog
 ***************************/
 #journal {
   position: relative;
