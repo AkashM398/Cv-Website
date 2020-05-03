@@ -6,7 +6,7 @@ function skillsProgress() {
     var lang = {
         "python": "70%",
         "deep": "60%",
-        "ui": "80%"
+        "ui": "60%"
     };
 
     var multiply = 2;
