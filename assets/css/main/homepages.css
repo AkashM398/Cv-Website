@@ -2714,29 +2714,7 @@ span#typed-slide-1 {
           object-fit: cover;
           width: 100%;
           z-index: 1; }
-      #portfolio .portfolio-item .portfolio-thumbnail .overlay {
-        height: 95%;
-        left: 3.5%;
-        opacity: 0;
-        position: absolute;
-        top: 2.5%;
-        width: 93%;
-        z-index: 2;
-        display: flex;
-        justify-content: center;
-        align-items: center; }
-        #portfolio .portfolio-item .portfolio-thumbnail .overlay:hover {
-          opacity: 1; }
-        #portfolio .portfolio-item .portfolio-thumbnail .overlay .content-port {
-          width: 100%;
-          text-align: center; }
-          #portfolio .portfolio-item .portfolio-thumbnail .overlay .content-port span {
-            margin-top: 0; }
-          #portfolio .portfolio-item .portfolio-thumbnail .overlay .content-port .fa {
-            font-size: 20px;
-            padding: 20px;
-            margin-bottom: 0;
-            border-radius: 100px; }
+
       #portfolio .portfolio-item .portfolio-thumbnail .botom-thumbnail {
         position: absolute;
         width: 100%;
